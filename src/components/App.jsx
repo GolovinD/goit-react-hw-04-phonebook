@@ -48,14 +48,6 @@ function App () {
     setContacts(
       [...contacts, newContact]
     );
-    return true
-  }
-
-  function findContact(filter) {
-    // console.log(filter)
-    setFilter(prevState => ({
-      filter
-    }));
   }
 
   const getWantedContacts = () => {
